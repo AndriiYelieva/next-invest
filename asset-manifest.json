@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/next-invest/static/css/main.a2a1113e.css",
+    "main.js": "/next-invest/static/js/main.4e8895cb.js",
+    "static/js/787.29d0ba78.chunk.js": "/next-invest/static/js/787.29d0ba78.chunk.js",
+    "static/media/header-background.png": "/next-invest/static/media/header-background.e0b75e82c1daf9cd42db.png",
+    "static/media/Img-3.png": "/next-invest/static/media/Img-3.c024b5e51b290093e813.png",
+    "static/media/Img-5.png": "/next-invest/static/media/Img-5.dff364656d2648a784a6.png",
+    "static/media/Img-6.png": "/next-invest/static/media/Img-6.e5b67c921dd267beb999.png",
+    "static/media/Img-4.png": "/next-invest/static/media/Img-4.90be40fce572c0e657fb.png",
+    "static/media/Img-2.png": "/next-invest/static/media/Img-2.67fbeb33ea04f1473bf6.png",
+    "static/media/Img-1.png": "/next-invest/static/media/Img-1.69a21ddc32299e65cd77.png",
+    "static/media/cuate.png": "/next-invest/static/media/cuate.1f6fdd1fd6e98fe7beeb.png",
+    "static/media/offerings.svg": "/next-invest/static/media/offerings.25ee871d01aa2cf2274e.svg",
+    "static/media/graph.png": "/next-invest/static/media/graph.fcba6b10eb438aaafd64.png",
+    "static/media/gingerbread.svg": "/next-invest/static/media/gingerbread.3d381904385fc48893784a84a0bb9d48.svg",
+    "static/media/cookie.svg": "/next-invest/static/media/cookie.225f6752d4b3a143bbc1cfd40199a808.svg",
+    "static/media/instagram.svg": "/next-invest/static/media/instagram.c47189de30ac24301bb4.svg",
+    "index.html": "/next-invest/index.html",
+    "static/media/facebook.svg": "/next-invest/static/media/facebook.16fd9f530ed101a07a59.svg",
+    "static/media/x.svg": "/next-invest/static/media/x.0f479de8799dc1ac4b7f.svg",
+    "static/media/arrow-right.svg": "/next-invest/static/media/arrow-right.817a5baf3bfaec256620.svg",
+    "static/media/arrow-top.svg": "/next-invest/static/media/arrow-top.d4e9101bf9e3cc6a219f.svg",
+    "main.a2a1113e.css.map": "/next-invest/static/css/main.a2a1113e.css.map",
+    "main.4e8895cb.js.map": "/next-invest/static/js/main.4e8895cb.js.map",
+    "787.29d0ba78.chunk.js.map": "/next-invest/static/js/787.29d0ba78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2a1113e.css",
+    "static/js/main.4e8895cb.js"
+  ]
+}
