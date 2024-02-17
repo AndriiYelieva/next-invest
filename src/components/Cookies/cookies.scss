@@ -1,0 +1,74 @@
+@import "../../style/main";
+
+.cookies {
+  position: fixed;
+
+  z-index: 1;
+  width: 480px;
+  left: 36px;
+  bottom: 36px;
+  padding: 16px 24px 16px 16px;
+  border-radius: 16px;
+  background-color: $color-grey-2;
+
+  &__images {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__title {
+    margin-top: 16px;
+
+    font-size: 16px;
+    font-style: normal;
+    line-height: 124%;
+  }
+
+  &__buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__button {
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124%;
+
+    &--more {
+      background-color: $color-purple;
+      color: $color-white;
+      
+      &:hover {
+        color: $color-purple;
+        background-color: $color-white;
+        box-shadow: 20px 20px 80px;
+      }
+    }
+
+    &--close {
+      cursor: pointer;
+
+      background-color: $color-white;
+      color: $color-purple;
+      
+      &:hover {
+        color: $color-white;
+        background-color: $color-purple;
+        box-shadow: 20px 20px 60px;
+      }
+    }
+  }
+}

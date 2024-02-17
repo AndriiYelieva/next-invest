@@ -1,0 +1,66 @@
+@import "../../style/main";
+
+.form {
+  height: 400px;
+  margin-top: 160px;
+  padding: 60px 160px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+
+  background: url("../../images/png/graph.png") center no-repeat;
+
+  &__title {
+    width: 700px;
+    color: $color-grey;
+
+    &--headline {
+      font-weight: bold;
+      font-size: 60px;
+    }
+
+    &--description {
+      font-weight: normal;
+      font-size: 24px;
+    }
+  }
+
+  &__wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+  }
+
+  &__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+
+    background: none;
+    border-bottom: 1px solid $color-grey;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+
+    padding: 8px;
+    text-transform: uppercase;
+
+    color: $color-white;
+    cursor: pointer;
+    border: none;
+
+    background-color: $color-blue;
+
+    &:hover {
+      background-color: $color-purple;
+      box-shadow: 20px 20px 60px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "../../style/main";
+
+.header {
+  position: relative;
+  padding: 0 160px 175px;
+
+  background: url("../../images/png/header-background.png") bottom no-repeat;
+
+  &__content {
+    margin-top: 120px;
+    color: $color-white;
+
+    &--title {
+      font-weight: bold;
+      font-size: 60px;
+    }
+
+    &--description {
+      margin-top: 40px;
+
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    &--started {
+      margin-top: 40px;
+
+      height: 70px;
+      width: 270px;
+      padding: 0;
+      cursor: pointer;
+
+      border: none;
+      color: inherit;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+
+      background-color: $color-purple;
+
+      &:hover {
+        color: $color-purple;
+        background-color: $color-white;
+        box-shadow: 20px 20px 60px;
+      }
+    }
+  }
+}

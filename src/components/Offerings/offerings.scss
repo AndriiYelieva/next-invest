@@ -1,0 +1,57 @@
+@import "../../style/main";
+
+.offerings {
+  margin-top: 160px;
+  padding: 0 160px;
+
+  background: url("../../images/offerings.svg") left no-repeat;
+
+  &__title {
+    margin: 0 auto;
+    &--headline {
+      font-weight: bold;
+      font-size: 48px;
+      text-align: center;
+    }
+
+    &--description {
+      margin-top: 24px;
+
+      color: $color-grey-2;
+      font-weight: normal;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  &__list {
+    margin-top: 60px;
+    gap: 30px;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__all {
+    display: flex;
+    padding: 24px 50px;
+    margin: 80px auto 0;
+
+    border: 2px solid $color-blue;
+    background: none;
+    cursor: pointer;
+
+    color: $color-blue;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-purple;
+    }
+  }
+}

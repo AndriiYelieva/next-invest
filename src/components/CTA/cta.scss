@@ -1,0 +1,31 @@
+@import "../../style/main";
+
+.cta {
+  margin-top: 160px;
+  padding: 0 130px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    width: 570px;
+
+    text-align: left;
+
+    &--headline {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    &--description {
+      margin-top: 24px;
+
+      color: $color-grey-2;
+      font-size: 24px;
+      font-weight: normal;
+    }
+  }
+
+  
+}

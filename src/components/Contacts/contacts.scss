@@ -1,0 +1,54 @@
+@import "../../style/main";
+
+.contacts {
+  margin-top: 160px;
+  padding: 0 130px;
+
+  &__title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+  }
+
+  &__wrapper {
+    margin-top: 25px;
+    display: flex;
+  }
+
+  &__map {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  &__info {
+    margin: 25px auto 0;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__link {
+
+    &--title {
+      color: $color-blue;
+      font-weight: 600;
+      line-height: 19px;
+      text-align: left;
+    }
+
+    &--description {
+      margin-top: 10px;
+
+      font-size: 14px;
+      line-height: 17px;
+      text-align: left;
+    }
+  }
+}

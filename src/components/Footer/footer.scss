@@ -1,0 +1,144 @@
+@import "../../style/main";
+
+.footer {
+  height: 484px;
+  margin-top: 160px;
+  padding: 60px 160px 0;
+
+  background-color: $color-background;
+
+  &__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &--wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &--logo {
+      &:hover {
+        color: $color-blue;
+        transform: scale(1.1);
+      }
+    }
+
+    &--list {
+      margin-top: 16px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    &--link {
+      color: $color-grey;
+
+      &:hover {
+        color: $color-blue;
+      }
+    }
+
+    &--button {
+      width: 50px;
+      height: 50px;
+
+      border-radius: 100%;
+      border: none;
+      cursor: pointer;
+
+      background-color: $color-purple;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../../images/arrow-top.svg");
+
+      &:hover {
+        box-shadow: 20px 20px 80px;
+      }
+    }
+  }
+
+  &__bottom {
+    margin-top: 76px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__newsletter {
+    &--title {
+      font-weight: normal;
+    }
+
+    &--email {
+      margin-top: 16px;
+
+      display: flex;
+      justify-content: space-between;
+
+      width: 370px;
+      border-bottom: 1px solid grey;
+    }
+
+    &--button {
+      width: 50px;
+      height: 50px;
+
+      border-radius: 10px 10px 0 0;
+      border: none;
+      cursor: pointer;
+
+      background-color: $color-blue;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../../images/arrow-right.svg");
+
+      &:hover {
+        box-shadow: 20px 20px 80px;
+      }
+    }
+
+    &--input {
+      width: 300px;
+      border: none;
+      background: none;
+      outline: none;
+
+      padding-left: 20px;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 30px;
+
+    &--link {
+      display: flex;
+      width: 28px;
+      height: 28px;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    &--facebook {
+      background-image: url("../../images/facebook.svg");
+    }
+
+    &--instagram {
+      background-image: url("../../images/instagram.svg");
+    }
+
+    &--x {
+      background-image: url("../../images/x.svg");
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "../../style/main";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 18px;
+  height: 90px;
+  color: $color-white;
+
+  &__logo {
+    font-weight: bold;
+    font-size: 24px;
+
+    &:hover {
+      color: $color-purple;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    font-weight: bold;
+
+    &--list {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      gap: 16px;
+    }
+
+    &--link {
+      font-size: 16px;
+
+      &:hover {
+        color: $color-purple;
+      }
+    }
+
+    &--buttons {
+      display: flex;
+      gap: 16px;
+    }
+
+    &--button {
+      height: 54px;
+      width: 135px;
+      padding: 0;
+      cursor: pointer;
+
+      border: none;
+      color: inherit;
+      text-transform: uppercase;
+
+      &:hover {
+        box-shadow: 20px 20px 60px;
+      }
+    }
+
+    &--login {
+      background-color: $color-purple;
+
+      &:hover {
+        color: $color-purple;
+        background-color: $color-white;
+      }
+    }
+
+    &--register {
+      color: $color-purple;
+      background-color: $color-white;
+      
+      &:hover {
+        color: $color-white;
+        background-color: $color-purple;
+      }
+    }
+  }
+}
